@@ -860,8 +860,8 @@ button {
 @media screen and (min-width: 768px) {
   .footer-text {
     margin-bottom: 0;
+  }
 }
-
 
 @media screen and (min-width: 1200px) {
   .footer-text {
@@ -933,7 +933,7 @@ button {
 
 @media screen and (min-width: 1200px) {
   .footer-social {
-     margin-bottom: 0;
+    margin-bottom: 0;
     margin-right: 79px;
   }
 }
