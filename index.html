@@ -43,7 +43,11 @@
         <!-- /Navigation -->
 
         <!-- burger menu -->
-        <button class="mobile-menu-button js-open-menu" type="button">
+        <button
+          class="mobile-menu-button js-open-menu"
+          type="button"
+          aria-expanded="false"
+        >
           <svg class="mobile-menu-ico" width="32" height="22">
             <use href="./images/icons/icons.svg#icon-hamburger"></use>
           </svg>
@@ -606,13 +610,9 @@
     <!-- BURGER -->
 
     <!-- Mobile-menu -->
-    <div class="mobile-menu is-open js-menu-container">
+    <div class="mobile-menu js-menu-container">
       <!-- Mobile-button -->
-      <button
-        type="button"
-        class="modal-close modal-close-menu js-close-menu"
-        data-modal-close=""
-      >
+      <button type="button" class="modal-close modal-close-menu js-close-menu">
         <svg class="modal-close-ico">
           <use href="./images/icons/icons.svg#icon-close"></use>
         </svg>
@@ -631,54 +631,57 @@
         </li>
       </ul>
 
-      <!-- Mobile-menu-contacts -->
-      <ul class="mobile-menu-adress-flex">
-        <li class="mobile-menu-adress-contact list">
-          <a class="mobile-menu-contact-phone link" href="tel:+110001111111"
-            >+11 (000) 111-11-11</a
-          >
-        </li>
-        <li class="mobile-menu-adress-contact list">
-          <a
-            class="mobile-menu-contact-email link"
-            href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-      </ul>
+      <div>
+        <ul class="mobile-menu-adress-flex">
+          <li class="mobile-menu-adress-contact list">
+            <a class="mobile-menu-contact-phone link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li class="mobile-menu-adress-contact list">
+            <a
+              class="mobile-menu-contact-email link"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
 
-      <!-- Mobile-menu-media -->
-      <ul class="social-list mobile-menu-social-list list">
-        <li class="social-list-item link">
-          <a class="social-list-link" href="">
-            <svg class="social-list-ico">
-              <use href="./images/icons/icons.svg#icon-instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="social-list-item link">
-          <a class="social-list-link" href="">
-            <svg class="social-list-ico">
-              <use href="./images/icons/icons.svg#icon-twitter"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="social-list-item link">
-          <a class="social-list-link" href="">
-            <svg class="social-list-ico">
-              <use href="./images/icons/icons.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="social-list-item link">
-          <a class="social-list-link" href="">
-            <svg class="social-list-ico">
-              <use href="./images/icons/icons.svg#icon-linkedin"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
+        <!-- Mobile-menu-media -->
+        <ul class="social-list mobile-menu-social-list list">
+          <li class="social-list-item link">
+            <a class="social-list-link" href="">
+              <svg class="social-list-ico">
+                <use href="./images/icons/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-item link">
+            <a class="social-list-link" href="">
+              <svg class="social-list-ico">
+                <use href="./images/icons/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-item link">
+            <a class="social-list-link" href="">
+              <svg class="social-list-ico">
+                <use href="./images/icons/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-item link">
+            <a class="social-list-link" href="">
+              <svg class="social-list-ico">
+                <use href="./images/icons/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
+    <!-- Mobile-menu-contacts -->
+
     <!-- /Mobile-menu -->
     <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script>
