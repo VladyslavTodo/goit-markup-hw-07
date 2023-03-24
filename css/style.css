@@ -87,11 +87,6 @@ button {
   }
 }
 
-.active {
-  position: relative;
-  color: var(--accent-color);
-}
-
 .mobile-menu-link.active {
   position: relative;
   color: var(--accent-color);
@@ -388,6 +383,11 @@ button {
   .contact-link {
     font-size: 16px;
   }
+}
+
+.active {
+  position: relative;
+  color: var(--accent-color);
 }
 
 @media screen and (min-width: 768px) {
