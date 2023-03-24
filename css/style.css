@@ -903,6 +903,12 @@ button {
   margin-right: 24px;
 }
 
+@media screen and (min-width: 768px) {
+  .footer-logo {
+    text-align: left;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .footer-logo {
     margin-right: 120px;
